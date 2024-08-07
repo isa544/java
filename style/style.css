@@ -1,0 +1,141 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f17cdc;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background-color: #F7DF1E; /* Color de fondo del encabezado, similar al logo de JavaScript */
+  color: #000; /* Texto negro para buen contraste */
+  padding: 10px 0; /* Reducido de 20px 0 */
+  margin-top: 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  transition: height 0.5s ease, padding 0.5s ease;
+}
+
+header.nav-scrolled {
+  height: 50px; /* Ajusta este valor según tu preferencia */
+}
+
+h1 {
+  margin-top: 0px;
+  margin-left: 50px;
+  font-size: 1.5em; /* Reducido de 2.5em */
+  transition: opacity 0.5s ease, margin 0.5s ease;
+  display: flex; /* Permite el posicionamiento */
+  position: relative; /* Para posicionar la imagen */
+  vertical-align: middle; /* Centra el h1 verticalmente */
+}
+
+#ico {
+  width: 35px; /* Reducido de 40px */
+  padding: 0%;
+  margin-right: 20px; /* Reducido de 80px */
+  margin-bottom: 20px;
+  margin-top: 0%;
+  height: auto;
+}
+
+h1 #ico {
+  position: absolute;
+  margin-top: 0px;
+  top: 30%;
+  right: 0px; /* Ajusta el espacio a la derecha */
+  transform: translateY(-30%); /* Centra verticalmente la imagen */
+}
+
+header.nav-scrolled h1 {
+  opacity: 0;
+  margin: 0;
+}
+
+main {
+  max-width: 1000px;
+  margin: 70px auto;
+  padding: 0 10px;
+  /* Aumenta el margen superior */
+  margin-top: 10px;
+}
+
+.prinn {
+  background-color: #fff;
+  padding: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  text-align: justify;
+}
+
+.prinn:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.8em;
+  color: #F7DF1E; /* Color similar al logo de JavaScript */
+}
+
+p {
+  margin: 10px 0;
+}
+
+code {
+  background-color: #eee;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+footer {
+  background-color: #F7DF1E; /* Color de fondo del pie de página */
+  color: #000; /* Texto negro para buen contraste */
+  padding: 5px 0;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#imagen {
+  transition: transform 0.2s ease-in-out;
+}
+
+/*menu*/
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0; /* Asegúrate de que no haya margen */
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #000; /* Texto negro para buen contraste */
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}

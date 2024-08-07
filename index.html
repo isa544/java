@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/file_type_js_official_icon_130509.ico">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Funciones JavaScript</title>
+</head>
+<body>
+    <header id="header">
+        <h1 id="title">Funciones JavaScript</h1> 
+        <img id="ico" src="img/ico.png" alt="">
+       
+        <nav id="navbar">
+            <ul>
+                <li><a href="#definicion">Definición de Funciones</a></li>
+                <li><a href="#parametros">Parámetros de Función</a></li>
+                <li><a href="#invocacion">Invocación de Función</a></li>
+                <li><a href="#llamada">Llamada de Función</a></li>
+                <li><a href="#apply">Función apply()</a></li>
+                <li><a href="#bind">Función bind()</a></li>
+                <li><a href="#closures">Cierres de Función (Closures)</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <section id="definicion" class="prinn" id="imagen">
+                <h2>Definición de Funciones</h2>
+                <p>
+                    En JavaScript, una función es un bloque de código diseñado para realizar una tarea específica o calcular un valor. Las funciones son fundamentales en la programación ya que permiten organizar el código en unidades reutilizables y modulares, facilitando la mantenibilidad y la legibilidad del código.
+                </p>
+                <p>
+                    Una función en JavaScript se define con la palabra clave <code>function</code>, seguida del nombre de la función, un conjunto de paréntesis <code>()</code>, y un bloque de código entre llaves <code>{}</code>. Las funciones pueden ser definidas de diferentes maneras, incluyendo declaraciones de función, expresiones de función y funciones flecha (arrow functions).
+                </p>
+                <img src="img/Definición de Funciones.png" alt="Definición de Funciones">
+            </section>
+
+            <section id="parametros" class="prinn" id="imagen">
+                <h2>Parámetros de Función</h2>
+                <p>
+                    Los parámetros de función son los valores que las funciones reciben para procesar o utilizar en sus operaciones internas. Cuando se define una función, los parámetros actúan como variables locales dentro del cuerpo de la función. Se especifican en los paréntesis que siguen al nombre de la función durante su declaración.
+                </p>
+                <p>
+                    Al invocar una función, los valores que se pasan a la función se denominan argumentos. Los parámetros permiten que las funciones sean flexibles y reutilizables, ya que pueden operar sobre datos variables proporcionados al momento de la llamada de la función.
+                </p>
+                <img src="img/Parámetros de Función.png" alt="Parámetros de Función">
+            </section>
+
+            <section id="invocacion" class="prinn" id="imagen">
+                <h2>Invocación de Función</h2>
+                <p>
+                    La invocación de función se refiere al proceso de ejecutar una función en JavaScript. Para invocar una función, se utiliza su nombre seguido de paréntesis, los cuales pueden contener argumentos si la función los requiere. La invocación de una función puede devolver un valor o realizar una acción sin devolver ningún valor, dependiendo de la definición de la función.
+                </p>
+                <img src="img/Invocación de Función.png" alt="Invocación de Función">
+            </section>
+
+            <section id="llamada" class="prinn" id="imagen">
+                <h2>Llamada de Función</h2>
+                <p>
+                    La llamada de función es un término que se utiliza a menudo como sinónimo de invocación de función. Se refiere al acto de ejecutar una función en un punto específico del código mediante el uso de su nombre seguido de paréntesis. En JavaScript, las funciones pueden ser llamadas en cualquier lugar después de haber sido declaradas, siempre que estén en el ámbito correcto.
+                </p>
+                <p>
+                    Cuando una función es llamada, el control del programa se transfiere al cuerpo de la función, donde se ejecutan las instrucciones especificadas. Una vez completadas las instrucciones, el control se devuelve al punto donde la función fue llamada, junto con cualquier valor que la función pueda devolver.
+                </p>
+                <img src="img/Llamada de Función.png" alt="Llamada de Función">
+            </section>
+
+            <section id="apply" class="prinn" id="imagen">
+                <h2>Función <code>apply()</code></h2>
+                <p>
+                    La función <code>apply</code> es un método en JavaScript que permite invocar una función con un conjunto de argumentos proporcionados como una matriz (array) o un objeto similar a una matriz. Es una herramienta poderosa que facilita el uso de funciones con argumentos dinámicos y permite la reutilización de código en diferentes contextos.
+                </p>
+                <img src="img/Función apply().png" alt="Función apply()">
+            </section>
+
+            <section id="bind" class="prinn" id="imagen">
+                <h2>Función <code>bind()</code></h2>
+                <p>
+                    El método <code>bind</code> en JavaScript crea una nueva función que, cuando es invocada, tiene su contexto <code>this</code> fijado a un valor específico, así como uno o más argumentos predefinidos. <code>bind</code> es útil para garantizar que una función tenga siempre el contexto adecuado, sin importar cómo o dónde se invoque. A diferencia de <code>call</code> y <code>apply</code>, que invocan la función inmediatamente, <code>bind</code> devuelve una nueva función que puede ser invocada más tarde.
+                </p>
+                <img src="img/Función bind().png" alt="Función bind()">
+            </section>
+
+            <section id="closures" class="prinn" id="imagen">
+                <h2>Cierres de Función (Closures)</h2>
+                <p>
+                    Un cierre es la combinación de una función y el ámbito léxico dentro del cual se declaró esa función. Esto significa que una función tiene acceso a su ámbito exterior, incluso después de que ese ámbito haya ejecutado.
+                </p>
+                <img src="img/Cierres de Función (Closures).png" alt="Cierres de Función (Closures)">
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>Autor: Isaias Vargas</p>
+    </footer>
+    
+    <script src="js/menu.js"></script>
+    <script src="js/java.js"></script>
+
+</body>
+</html>
